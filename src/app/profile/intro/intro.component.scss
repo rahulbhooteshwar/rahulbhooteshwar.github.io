@@ -1,0 +1,124 @@
+section {
+  padding: 1rem 0 !important;
+}
+
+.no-margin {
+  margin-right: unset;
+  margin-left: unset;
+}
+.no-padding {
+  padding-left: unset;
+  padding-right: unset;
+}
+
+.padding-5 {
+  padding: 5px !important;
+}
+
+.terminal {
+  .fa-refresh {
+    cursor: pointer;
+  }
+  ::ng-deep {
+    ::-webkit-scrollbar {
+      background-color: #fff;
+      width: 12px;
+    }
+
+    /* background of the scrollbar except button or resizer */
+    ::-webkit-scrollbar-track {
+      background-color: #151515;
+    }
+
+    /* scrollbar itself */
+    ::-webkit-scrollbar-thumb {
+      background-color: #babac0;
+      border-radius: 16px;
+      border: 4px solid #151515;
+    }
+
+    /* set button(top and bottom of the scrollbar) */
+    ::-webkit-scrollbar-button {
+      display: none;
+    }
+    .fakeButtons {
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      border: 1px solid #000;
+      position: relative;
+      left: 6px;
+      background-color: #ff3b47;
+      border-color: #9d252b;
+      display: inline-block;
+    }
+
+    .fakeTitle {
+      display: inline-block;
+      font-family: monospace;
+    }
+
+    .fakeMinimize {
+      left: 11px;
+      background-color: #ffc100;
+      border-color: #9d802c;
+    }
+
+    .fakeZoom {
+      left: 16px;
+      background-color: #00d742;
+      border-color: #049931;
+    }
+
+    .fakeMenu {
+      width: 95%;
+      text-align: center;
+      box-sizing: border-box;
+      height: 25px;
+      background-color: #bbb;
+      margin: 0 auto;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(247, 234, 234, 0.2), 0 6px 20px 0 rgba(161, 158, 158, 0.19);
+    }
+
+    .fakeScreen {
+      background-color: #151515;
+      box-sizing: border-box;
+      width: 95%;
+      margin: 0 auto;
+      padding: 20px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      height: 90vh;
+      padding-top: 15px;
+      color: white;
+      overflow-y: auto;
+      overflow-x: hidden;
+      box-shadow: 0 4px 8px 0 rgba(247, 234, 234, 0.2), 0 6px 20px 0 rgba(161, 158, 158, 0.19);
+    }
+
+    .typed {
+      white-space: pre;
+      display: inline;
+      font-size: 1.25em;
+      font-family: monospace;
+      white-space: normal;
+    }
+
+    .command-arg {
+      color: #c07029;
+    }
+    .command-pre {
+      color: #cdee69;
+      /* font-weight: bold; */
+    }
+    .command-result {
+      font-weight: bold;
+      color: #b4c1c9 !important;
+      pre {
+        color: #b4c1c9 !important;
+      }
+    }
+  }
+}
