@@ -27,7 +27,7 @@ export class IntroComponent implements OnInit, AfterViewInit, AfterViewChecked {
     }
     const followMe = {
       email: 'rahul.bhooteshwar@gmail.com',
-      medium: 'https://medium.com/@rahul.bhooteshwar',
+      medium: 'https://rahul-bhooteshwar.medium.com/',
       linkedIn: 'https://www.linkedin.com/in/rahul-bhooteshwar-29600179/',
       gitHub: 'https://github.com/rahulbhooteshwar'
     };
