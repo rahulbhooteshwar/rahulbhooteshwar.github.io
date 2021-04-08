@@ -1,14 +1,14 @@
 // tslint:disable: max-line-length
 export const posts = [
     {
+        title: 'Zero downtime deployments with PM2',
+        link: 'https://rahul-bhooteshwar.medium.com/zero-downtime-deployments-with-pm2-93013713df15',
+        thumbnail: 'https://miro.medium.com/max/640/1*iRVZdUtpz0Um_lMumhsTLA.png'
+    },
+    {
         title: 'Using Environment Variables with StencilJS',
         link: 'https://medium.com/learnwithrahul/using-environment-variables-with-stenciljs-d3425592fa18',
         thumbnail: 'https://miro.medium.com/max/700/1*Duxh3-NEIMzfEI48OpGzGQ.jpeg'
-    },
-    {
-        title: 'Angular 6: It is almost there…',
-        link: 'https://medium.com/learnwithrahul/angular-6-it-is-almost-there-29adcc530933',
-        thumbnail: 'https://miro.medium.com/max/700/1*IDvB6l7iifLNV3Z585qv2Q.png'
     },
     {
         title: 'Introduction to Some Kick-Ass front End Libraries/Tools',
