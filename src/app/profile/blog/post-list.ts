@@ -1,6 +1,11 @@
 // tslint:disable: max-line-length
 export const posts = [
     {
+        title: 'Securely using NPM credentials with Docker',
+        link: 'https://medium.com/learnwithrahul/securely-using-npm-credentials-with-docker-f38b43bdb7c1',
+        thumbnail: 'https://miro.medium.com/max/1400/1*eYzmfYHnZAJVXDnrTH1GMA.jpeg'
+    },
+    {
         title: 'Zero downtime deployments with PM2',
         link: 'https://rahul-bhooteshwar.medium.com/zero-downtime-deployments-with-pm2-93013713df15',
         thumbnail: 'https://miro.medium.com/max/640/1*iRVZdUtpz0Um_lMumhsTLA.png'
